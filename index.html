@@ -16,7 +16,7 @@
 <body>
   <div class="card">
     <div class="card__header">
-      <img src="./img/X2oObC4.png" />
+      <img src="./img/avatar.jpg" />
     </div>
     <!-- <h2>hello!</h2> -->
     <div class="card__body">
@@ -33,7 +33,14 @@
       <div class="card__content">
         <div class="card__title">
           <h2>My Tasks</h2>
-          <p>September 9,2020</p>
+          <p class="date">
+            <i class="fa fa-calendar-alt"></i>
+            <span id="day"></span>
+            <span>-</span>
+            <span id="month"></span>
+            <span>-</span>
+            <span id="years"></span>
+          </p>
         </div>
         <div class="card__add">
           <input id="newTask" type="text" placeholder="Enter an activity...">
