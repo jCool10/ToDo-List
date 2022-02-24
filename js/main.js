@@ -108,3 +108,16 @@ const sortDES = () => {
 }
 
 window.sortDES = sortDES;
+
+
+function date(){
+  var today = new Date();
+  var years = today.getFullYear();
+  var month = today.getMonth() + 1;
+  var day = today.getDate();
+
+  document.getElementById("years").innerHTML = years;
+  document.getElementById("month").innerHTML = month;
+  document.getElementById("day").innerHTML = day;
+}
+setInterval(date, 1000);
